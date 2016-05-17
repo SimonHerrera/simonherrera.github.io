@@ -1,4 +1,42 @@
-body {
-  color: red;
-  font-family: sans-serif;
+/*----------Default styles ------------*/
+* {
+  box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: 'Exo 2', sans-serif;
+  color: black;
+}
+
+/*-------- Header & Footer Styling-----------*/
+#main-header div h1{
+  display: inline;
+}
+
+article h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#main-header {
+  min-width: 800px;
+  position: fixed;
+  text-align: center;
+  padding-top: 10px;
+  width: 100%;
+  background-color: rgba(200,200,200, .92);
+}
+
+#main-footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(200,200,200, .9);
+}
+
+/*-------- Main Styling-----------*/
+
