@@ -12,13 +12,14 @@ body {
   background-image: url('../image/bg.jpg');
   min-height: 100vh;
   color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
 }
 
 /*-------- Header & Footer Styling-----------*/
 #main-header div h1{
   display: inline;
+  font-size: 1.3em;
 }
 
 article h1 {
@@ -36,10 +37,12 @@ article h1 {
 }
 
 #main-footer {
+  min-width: 800px;
   position: fixed;
-  bottom: 0;
   text-align: center;
+  font-size: 1.3em;
   width: 100%;
+  bottom: 0;
   background-color: rgba(200,200,200, .7);
 }
 
