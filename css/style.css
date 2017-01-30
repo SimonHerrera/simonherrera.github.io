@@ -37,7 +37,7 @@ article h1 {
 }
 
 #main-footer {
-  min-width: 800px;
+  min-width: 100%;
   position: fixed;
   text-align: center;
   font-size: 1.1em;
