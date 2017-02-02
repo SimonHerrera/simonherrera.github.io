@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 1.2em;
+  font-size: 1.4rem;
   font-family: 'Exo 2', sans-serif;
   color: darkgray;
   /*background-image: url('../image/bg.jpg');*/
@@ -51,6 +51,11 @@ a:hover {
   color: black;
 }
 
+.nav li a:hover {
+  background-color: #000005 !important;
+  transition: .4s;
+}
+
 a:active {
   color: darkgray;
 }
@@ -63,17 +68,62 @@ ul {
 
 .wrapper {
   margin-left: 0px;
-  min-width: 800px;
+  min-width: 850px;
   width: 100%;
-  padding: 80px 0 100px;
+  padding: 180px 0 100px;
   padding-left: 10px;
   margin: auto;
-  font-size: 2em;
+  font-size: 2rem;
   color: black;
   background-color: transparent;
   /*background-color: white;*/
 }
 
 #main-style {
-  margin-top: 150px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  padding: 50px;
+}
+
+/*-------- Main Styling-----------*/
+#resume {
+  margin: auto;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.color-bottom {
+  margin-top: 60px;
+  text-align: center;
+  width: 60%;
+  border-bottom: solid  10px;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
+  box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
+}
+
+.color-bottom:hover {
+  transition: background-color 2s ease-out .2s;
+  background-color: lightgray;
+  /*right: 600px;*/
+  /*width: 800px;*/
+  /*width: 1200px;*/
+  /*height: 1200px;*/
+}
+
+.card {
+  -webkit-box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
+  box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
+  border-radius: 7px;
+  /*height: 650px;*/
+  width: 90%;
+  margin: auto;
+  /*overflow: initial;*/
+}
+
+.text {
+  margin-top: 40px;
+  padding: 15px;
 }
