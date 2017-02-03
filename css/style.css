@@ -11,6 +11,8 @@ body {
   color: darkgray;
   /*background-image: url('../image/bg.jpg');*/
   min-height: 100vh;
+  background-image: url('../image/code_bg_bw_blur.png');
+  background-attachment: fixed;
   /*color: white;*/
   /*background-size: cover;*/
   /*background-repeat: no-repeat;*/
@@ -66,6 +68,11 @@ ul {
 
 /*-------- Main Styling-----------*/
 
+a img {
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
 .wrapper {
   margin-left: 0px;
   min-width: 850px;
@@ -75,7 +82,7 @@ ul {
   margin: auto;
   font-size: 2rem;
   color: black;
-  background-color: transparent;
+  /*background-color: transparent;*/
   /*background-color: white;*/
 }
 
@@ -85,11 +92,19 @@ ul {
   padding: 50px;
 }
 
-/*-------- Main Styling-----------*/
+/*-------- Features----------*/
+
+.portrait {
+  border-radius: 50%;
+  padding-bottom: 10px;
+  /*margin: auto;*/
+  /*display: block;*/
+ }
+
 #resume {
   margin: auto;
   width: 100%;
-  padding-bottom: 0;
+  padding -bottom:0;
 }
 
 .color-bottom {
@@ -101,6 +116,8 @@ ul {
   -webkit-box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
   box-shadow: 10px 9px 28px -2px rgba(0,0,0,0.75);
+  background-color: white;
+  opacity: .7;
 }
 
 .color-bottom:hover {
@@ -120,6 +137,8 @@ ul {
   /*height: 650px;*/
   width: 90%;
   margin: auto;
+  background-color: white;
+  opacity: .9;
   /*overflow: initial;*/
 }
 
